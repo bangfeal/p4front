@@ -1,0 +1,71 @@
+.mainContainerInd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.charImage {
+  height: 200px;
+  border-radius: 25px;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+
+.charName {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.species {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text {
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  max-width: 400px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+
+  background-color: #171717;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.homeButton:hover {
+  transform: translateY(-2px);
+  background-color: #222;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.homeButton:active {
+  transform: scale(0.97);
+}
